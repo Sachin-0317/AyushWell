@@ -1,338 +1,191 @@
 // ==================== AYUSHWELL+ LANGUAGE TRANSLATIONS ====================
-// Supported: English (en), Tamil (ta), Hindi (hi), Telugu (te)
-
 const TRANSLATIONS = {
     en: {
-        // App
-        appTitle: "AyushWell+",
-        appTagline: "AI-Powered Ayurvedic Wellness",
-        signIn: "Sign In",
-        register: "Register",
-        patient: "Patient",
-        doctor: "Doctor",
-        emailOrPhone: "Email or Phone",
-        enterEmail: "Enter your email or phone",
-        password: "Password",
-        enterPassword: "Enter your password",
-        tryDemo: "Try Demo Account",
-        fullName: "Full Name",
-        enterFullName: "Enter your full name",
-        email: "Email",
-        enterEmailOnly: "Enter your email",
-        phone: "Phone Number",
+        appTitle: "AyushWell+", appTagline: "AI-Powered Ayurvedic Wellness",
+        signIn: "Sign In", register: "Register", patient: "Patient", doctor: "Doctor",
+        emailOrPhone: "Email or Phone", enterEmail: "Enter your email or phone",
+        password: "Password", enterPassword: "Enter your password",
+        tryDemo: "Try Demo Account", fullName: "Full Name", enterFullName: "Enter your full name",
+        email: "Email", enterEmailOnly: "Enter your email", phone: "Phone Number",
         enterPhone: "Enter your phone number",
         createPassword: "Create a password (min 6 characters)",
-        confirmPassword: "Confirm Password",
-        confirmYourPassword: "Confirm your password",
+        confirmPassword: "Confirm Password", confirmYourPassword: "Confirm your password",
         createAccount: "Create Account",
-
-        // Nav
-        overview: "Overview",
-        prakritAssessment: "Prakriti Assessment",
-        aiRecommendations: "AI Recommendations",
-        myDietPlan: "My Diet Plan",
-        myYogaPlan: "My Yoga Plan",
-        progressTracking: "Progress Tracking",
-        consultations: "Consultations",
-        visualExplainer: "Visual Explainer",
-        aiChatbot: "AI Chatbot",
-        logout: "Logout",
-
-        // Overview
-        welcomeMsg: "Welcome",
-        wellnessOverview: "Here's your wellness overview for today",
-        todaysCalories: "Today's Calories",
-        activeMinutes: "Active Minutes",
-        waterIntake: "Water Intake",
-        sleepQuality: "Sleep Quality",
-
-        // Assessment
-        questionOf: "Question",
-        of: "of",
-        previous: "Previous",
-        nextQuestion: "Next Question",
-        submitAssessment: "Submit Assessment",
-        retakeAssessment: "Retake Assessment",
-        assessmentComplete: "Assessment Complete!",
-        yourPrakriti: "Your Prakriti",
-        dominantDosha: "Your Dominant Dosha",
-
-        // Consultation
-        bookAppointment: "Book Appointment",
-        upcomingConsultations: "Upcoming Consultations",
-        pastConsultations: "Past Consultations",
-        selectDoctor: "Select a Doctor",
-        selectDate: "Select Date",
-        selectTime: "Select Time Slot",
-        bookNow: "Book Appointment",
-        cancelBooking: "Cancel Booking",
+        nav_overview: "Overview", nav_assessment: "Prakriti Assessment",
+        nav_aiRec: "AI Recommendations", nav_diet: "My Diet Plan", nav_yoga: "My Yoga Plan",
+        nav_progress: "Progress Tracking", nav_consult: "Consultations",
+        nav_explainer: "Visual Explainer", nav_chatbot: "AI Chatbot", nav_logout: "Logout",
+        welcomeMsg: "Welcome", wellnessOverview: "Here's your wellness overview for today",
+        todaysCalories: "Today's Calories", activeMinutes: "Active Minutes",
+        waterIntake: "Water Intake", sleepQuality: "Sleep Quality",
+        questionOf: "Question", of: "of", previous: "Previous",
+        nextQuestion: "Next Question", submitAssessment: "Submit Assessment",
+        retakeAssessment: "Retake Assessment", assessmentComplete: "Assessment Complete!",
+        yourPrakriti: "Your Prakriti", dominantDosha: "Your Dominant Dosha",
+        bookAppointment: "Book Appointment", upcomingConsultations: "Upcoming Consultations",
+        pastConsultations: "Past Consultations", selectDoctor: "Select a Doctor",
+        selectDate: "Select Date", selectTime: "Select Time Slot",
+        bookNow: "Book Appointment", cancelBooking: "Cancel Booking",
         confirmCancel: "Are you sure you want to cancel this appointment?",
-        noUpcoming: "No upcoming appointments",
-        noPast: "No past consultations",
-        bookingConfirmed: "Appointment booked successfully!",
-        bookingCancelled: "Appointment cancelled.",
-        specialization: "Specialization",
-        experience: "Experience",
-        rating: "Rating",
-        availableSlots: "Available Slots",
-        chooseDoctor: "Choose a doctor to see available slots",
-        years: "years",
-        appointmentWith: "Appointment with",
-        on: "on",
-        at: "at",
-        status: "Status",
-        confirmed: "Confirmed",
-        cancelled: "Cancelled",
-        viewDetails: "View Details",
-        noSlotsAvailable: "No slots available on this date",
-        selectDateFirst: "Please select a date first",
-        selectDoctorFirst: "Please select a doctor first",
+        noUpcoming: "No upcoming appointments", noPast: "No past consultations",
+        bookingConfirmed: "Appointment booked successfully!", bookingCancelled: "Appointment cancelled.",
+        specialization: "Specialization", experience: "Experience", rating: "Rating",
+        availableSlots: "Available Slots", chooseDoctor: "Choose a doctor to see available slots",
+        years: "years", appointmentWith: "Appointment with", on: "on", at: "at",
+        status: "Status", confirmed: "Confirmed", cancelled: "Cancelled",
+        viewDetails: "View Details", noSlotsAvailable: "No slots available on this date",
+        selectDateFirst: "Please select a date first", selectDoctorFirst: "Please select a doctor first",
         fillAllFields: "Please fill all fields",
+        viewTitle_overview: "Overview", viewTitle_assessment: "Prakriti Assessment",
+        viewTitle_aiplan: "AI Recommendations", viewTitle_diet: "My Diet Plan",
+        viewTitle_yoga: "My Yoga Plan", viewTitle_progress: "Progress Tracking",
+        viewTitle_consult: "Consultations", viewTitle_explainer: "Visual Explainer",
+        viewTitle_chatbot: "AI Chatbot",
     },
-
     ta: {
-        appTitle: "AyushWell+",
-        appTagline: "AI-இயங்கும் ஆயுர்வேத நலம்",
-        signIn: "உள்நுழைக",
-        register: "பதிவு செய்க",
-        patient: "நோயாளி",
-        doctor: "மருத்துவர்",
-        emailOrPhone: "மின்னஞ்சல் அல்லது தொலைபேசி",
-        enterEmail: "உங்கள் மின்னஞ்சல் அல்லது தொலைபேசி உள்ளிடுக",
-        password: "கடவுச்சொல்",
-        enterPassword: "உங்கள் கடவுச்சொல்லை உள்ளிடுக",
-        tryDemo: "டெமோ கணக்கை முயற்சிக்கவும்",
-        fullName: "முழு பெயர்",
-        enterFullName: "உங்கள் முழு பெயரை உள்ளிடுக",
-        email: "மின்னஞ்சல்",
-        enterEmailOnly: "உங்கள் மின்னஞ்சலை உள்ளிடுக",
-        phone: "தொலைபேசி எண்",
+        appTitle: "AyushWell+", appTagline: "AI-இயங்கும் ஆயுர்வேத நலம்",
+        signIn: "உள்நுழைக", register: "பதிவு செய்க", patient: "நோயாளி", doctor: "மருத்துவர்",
+        emailOrPhone: "மின்னஞ்சல் அல்லது தொலைபேசி", enterEmail: "உங்கள் மின்னஞ்சல் அல்லது தொலைபேசி உள்ளிடுக",
+        password: "கடவுச்சொல்", enterPassword: "உங்கள் கடவுச்சொல்லை உள்ளிடுக",
+        tryDemo: "டெமோ கணக்கை முயற்சிக்கவும்", fullName: "முழு பெயர்",
+        enterFullName: "உங்கள் முழு பெயரை உள்ளிடுக", email: "மின்னஞ்சல்",
+        enterEmailOnly: "உங்கள் மின்னஞ்சலை உள்ளிடுக", phone: "தொலைபேசி எண்",
         enterPhone: "உங்கள் தொலைபேசி எண்ணை உள்ளிடுக",
         createPassword: "கடவுச்சொல் உருவாக்குக (குறைந்தது 6 எழுத்துக்கள்)",
         confirmPassword: "கடவுச்சொல்லை உறுதிப்படுத்துக",
         confirmYourPassword: "உங்கள் கடவுச்சொல்லை உறுதிப்படுத்துக",
         createAccount: "கணக்கை உருவாக்குக",
-        overview: "கண்ணோட்டம்",
-        prakritAssessment: "பிரகிருதி மதிப்பீடு",
-        aiRecommendations: "AI பரிந்துரைகள்",
-        myDietPlan: "என் உணவு திட்டம்",
-        myYogaPlan: "என் யோகா திட்டம்",
-        progressTracking: "முன்னேற்ற கண்காணிப்பு",
-        consultations: "ஆலோசனைகள்",
-        visualExplainer: "காட்சி விளக்கம்",
-        aiChatbot: "AI சாட்போட்",
-        logout: "வெளியேறு",
-        welcomeMsg: "வரவேற்கிறோம்",
-        wellnessOverview: "இன்றைய உங்கள் ஆரோக்கிய கண்ணோட்டம்",
-        todaysCalories: "இன்றைய கலோரிகள்",
-        activeMinutes: "செயலில் நிமிடங்கள்",
-        waterIntake: "நீர் உட்கொள்ளல்",
-        sleepQuality: "தூக்க தரம்",
-        questionOf: "கேள்வி",
-        of: "இல்",
-        previous: "முந்தையது",
-        nextQuestion: "அடுத்த கேள்வி",
-        submitAssessment: "மதிப்பீட்டை சமர்பிக்க",
-        retakeAssessment: "மறுமதிப்பீடு செய்க",
-        assessmentComplete: "மதிப்பீடு முடிந்தது!",
-        yourPrakriti: "உங்கள் பிரகிருதி",
-        dominantDosha: "உங்கள் முக்கிய தோஷம்",
-        bookAppointment: "நேர்முகம் பதிவு செய்க",
-        upcomingConsultations: "வரவிருக்கும் ஆலோசனைகள்",
-        pastConsultations: "கடந்த ஆலோசனைகள்",
-        selectDoctor: "மருத்துவரை தேர்ந்தெடுக்கவும்",
-        selectDate: "தேதியை தேர்ந்தெடுக்கவும்",
-        selectTime: "நேர இடைவெளியை தேர்ந்தெடுக்கவும்",
-        bookNow: "நேர்முகம் பதிவு செய்க",
-        cancelBooking: "பதிவை ரத்து செய்க",
+        nav_overview: "கண்ணோட்டம்", nav_assessment: "பிரகிருதி மதிப்பீடு",
+        nav_aiRec: "AI பரிந்துரைகள்", nav_diet: "என் உணவு திட்டம்", nav_yoga: "என் யோகா திட்டம்",
+        nav_progress: "முன்னேற்ற கண்காணிப்பு", nav_consult: "ஆலோசனைகள்",
+        nav_explainer: "காட்சி விளக்கம்", nav_chatbot: "AI சாட்போட்", nav_logout: "வெளியேறு",
+        welcomeMsg: "வரவேற்கிறோம்", wellnessOverview: "இன்றைய உங்கள் ஆரோக்கிய கண்ணோட்டம்",
+        todaysCalories: "இன்றைய கலோரிகள்", activeMinutes: "செயலில் நிமிடங்கள்",
+        waterIntake: "நீர் உட்கொள்ளல்", sleepQuality: "தூக்க தரம்",
+        questionOf: "கேள்வி", of: "இல்", previous: "முந்தையது",
+        nextQuestion: "அடுத்த கேள்வி", submitAssessment: "மதிப்பீட்டை சமர்பிக்க",
+        retakeAssessment: "மறுமதிப்பீடு செய்க", assessmentComplete: "மதிப்பீடு முடிந்தது!",
+        yourPrakriti: "உங்கள் பிரகிருதி", dominantDosha: "உங்கள் முக்கிய தோஷம்",
+        bookAppointment: "நேர்முகம் பதிவு செய்க", upcomingConsultations: "வரவிருக்கும் ஆலோசனைகள்",
+        pastConsultations: "கடந்த ஆலோசனைகள்", selectDoctor: "மருத்துவரை தேர்ந்தெடுக்கவும்",
+        selectDate: "தேதியை தேர்ந்தெடுக்கவும்", selectTime: "நேர இடைவெளியை தேர்ந்தெடுக்கவும்",
+        bookNow: "நேர்முகம் பதிவு செய்க", cancelBooking: "பதிவை ரத்து செய்க",
         confirmCancel: "இந்த சந்திப்பை ரத்து செய்ய விரும்புகிறீர்களா?",
-        noUpcoming: "வரவிருக்கும் சந்திப்புகள் இல்லை",
-        noPast: "கடந்த ஆலோசனைகள் இல்லை",
+        noUpcoming: "வரவிருக்கும் சந்திப்புகள் இல்லை", noPast: "கடந்த ஆலோசனைகள் இல்லை",
         bookingConfirmed: "சந்திப்பு வெற்றிகரமாக பதிவு செய்யப்பட்டது!",
         bookingCancelled: "சந்திப்பு ரத்து செய்யப்பட்டது.",
-        specialization: "நிபுணத்துவம்",
-        experience: "அனுபவம்",
-        rating: "மதிப்பீடு",
+        specialization: "நிபுணத்துவம்", experience: "அனுபவம்", rating: "மதிப்பீடு",
         availableSlots: "கிடைக்கும் நேரங்கள்",
         chooseDoctor: "கிடைக்கும் நேரங்களை பார்க்க மருத்துவரை தேர்ந்தெடுக்கவும்",
-        years: "ஆண்டுகள்",
-        appointmentWith: "சந்திப்பு",
-        on: "அன்று",
-        at: "மணிக்கு",
-        status: "நிலை",
-        confirmed: "உறுதிப்படுத்தப்பட்டது",
-        cancelled: "ரத்து செய்யப்பட்டது",
-        viewDetails: "விவரங்களை பார்க்க",
-        noSlotsAvailable: "இந்த தேதியில் நேரங்கள் இல்லை",
+        years: "ஆண்டுகள்", appointmentWith: "சந்திப்பு", on: "அன்று", at: "மணிக்கு",
+        status: "நிலை", confirmed: "உறுதிப்படுத்தப்பட்டது", cancelled: "ரத்து செய்யப்பட்டது",
+        viewDetails: "விவரங்களை பார்க்க", noSlotsAvailable: "இந்த தேதியில் நேரங்கள் இல்லை",
         selectDateFirst: "முதலில் தேதியை தேர்ந்தெடுக்கவும்",
         selectDoctorFirst: "முதலில் மருத்துவரை தேர்ந்தெடுக்கவும்",
         fillAllFields: "அனைத்து புலங்களையும் நிரப்பவும்",
+        viewTitle_overview: "கண்ணோட்டம்", viewTitle_assessment: "பிரகிருதி மதிப்பீடு",
+        viewTitle_aiplan: "AI பரிந்துரைகள்", viewTitle_diet: "என் உணவு திட்டம்",
+        viewTitle_yoga: "என் யோகா திட்டம்", viewTitle_progress: "முன்னேற்ற கண்காணிப்பு",
+        viewTitle_consult: "ஆலோசனைகள்", viewTitle_explainer: "காட்சி விளக்கம்",
+        viewTitle_chatbot: "AI சாட்போட்",
     },
-
     hi: {
-        appTitle: "AyushWell+",
-        appTagline: "AI-संचालित आयुर्वेदिक स्वास्थ्य",
-        signIn: "साइन इन करें",
-        register: "पंजीकरण करें",
-        patient: "मरीज़",
-        doctor: "डॉक्टर",
-        emailOrPhone: "ईमेल या फ़ोन",
-        enterEmail: "अपना ईमेल या फ़ोन दर्ज करें",
-        password: "पासवर्ड",
-        enterPassword: "अपना पासवर्ड दर्ज करें",
-        tryDemo: "डेमो अकाउंट आज़माएं",
-        fullName: "पूरा नाम",
-        enterFullName: "अपना पूरा नाम दर्ज करें",
-        email: "ईमेल",
-        enterEmailOnly: "अपना ईमेल दर्ज करें",
-        phone: "फ़ोन नंबर",
+        appTitle: "AyushWell+", appTagline: "AI-संचालित आयुर्वेदिक स्वास्थ्य",
+        signIn: "साइन इन करें", register: "पंजीकरण करें", patient: "मरीज़", doctor: "डॉक्टर",
+        emailOrPhone: "ईमेल या फ़ोन", enterEmail: "अपना ईमेल या फ़ोन दर्ज करें",
+        password: "पासवर्ड", enterPassword: "अपना पासवर्ड दर्ज करें",
+        tryDemo: "डेमो अकाउंट आज़माएं", fullName: "पूरा नाम",
+        enterFullName: "अपना पूरा नाम दर्ज करें", email: "ईमेल",
+        enterEmailOnly: "अपना ईमेल दर्ज करें", phone: "फ़ोन नंबर",
         enterPhone: "अपना फ़ोन नंबर दर्ज करें",
         createPassword: "पासवर्ड बनाएं (न्यूनतम 6 अक्षर)",
         confirmPassword: "पासवर्ड की पुष्टि करें",
         confirmYourPassword: "अपने पासवर्ड की पुष्टि करें",
         createAccount: "खाता बनाएं",
-        overview: "अवलोकन",
-        prakritAssessment: "प्रकृति मूल्यांकन",
-        aiRecommendations: "AI सुझाव",
-        myDietPlan: "मेरा आहार योजना",
-        myYogaPlan: "मेरा योग योजना",
-        progressTracking: "प्रगति ट्रैकिंग",
-        consultations: "परामर्श",
-        visualExplainer: "दृश्य व्याख्याता",
-        aiChatbot: "AI चैटबॉट",
-        logout: "लॉगआउट",
-        welcomeMsg: "स्वागत है",
-        wellnessOverview: "आज के लिए आपका स्वास्थ्य अवलोकन",
-        todaysCalories: "आज की कैलोरी",
-        activeMinutes: "सक्रिय मिनट",
-        waterIntake: "पानी का सेवन",
-        sleepQuality: "नींद की गुणवत्ता",
-        questionOf: "प्रश्न",
-        of: "में से",
-        previous: "पिछला",
-        nextQuestion: "अगला प्रश्न",
-        submitAssessment: "मूल्यांकन जमा करें",
-        retakeAssessment: "पुनः मूल्यांकन करें",
-        assessmentComplete: "मूल्यांकन पूरा हुआ!",
-        yourPrakriti: "आपकी प्रकृति",
-        dominantDosha: "आपका प्रमुख दोष",
-        bookAppointment: "अपॉइंटमेंट बुक करें",
-        upcomingConsultations: "आगामी परामर्श",
-        pastConsultations: "पिछले परामर्श",
-        selectDoctor: "डॉक्टर चुनें",
-        selectDate: "तारीख चुनें",
-        selectTime: "समय स्लॉट चुनें",
-        bookNow: "अपॉइंटमेंट बुक करें",
-        cancelBooking: "बुकिंग रद्द करें",
+        nav_overview: "अवलोकन", nav_assessment: "प्रकृति मूल्यांकन",
+        nav_aiRec: "AI सुझाव", nav_diet: "मेरा आहार योजना", nav_yoga: "मेरा योग योजना",
+        nav_progress: "प्रगति ट्रैकिंग", nav_consult: "परामर्श",
+        nav_explainer: "दृश्य व्याख्याता", nav_chatbot: "AI चैटबॉट", nav_logout: "लॉगआउट",
+        welcomeMsg: "स्वागत है", wellnessOverview: "आज के लिए आपका स्वास्थ्य अवलोकन",
+        todaysCalories: "आज की कैलोरी", activeMinutes: "सक्रिय मिनट",
+        waterIntake: "पानी का सेवन", sleepQuality: "नींद की गुणवत्ता",
+        questionOf: "प्रश्न", of: "में से", previous: "पिछला",
+        nextQuestion: "अगला प्रश्न", submitAssessment: "मूल्यांकन जमा करें",
+        retakeAssessment: "पुनः मूल्यांकन करें", assessmentComplete: "मूल्यांकन पूरा हुआ!",
+        yourPrakriti: "आपकी प्रकृति", dominantDosha: "आपका प्रमुख दोष",
+        bookAppointment: "अपॉइंटमेंट बुक करें", upcomingConsultations: "आगामी परामर्श",
+        pastConsultations: "पिछले परामर्श", selectDoctor: "डॉक्टर चुनें",
+        selectDate: "तारीख चुनें", selectTime: "समय स्लॉट चुनें",
+        bookNow: "अपॉइंटमेंट बुक करें", cancelBooking: "बुकिंग रद्द करें",
         confirmCancel: "क्या आप इस अपॉइंटमेंट को रद्द करना चाहते हैं?",
-        noUpcoming: "कोई आगामी अपॉइंटमेंट नहीं",
-        noPast: "कोई पिछला परामर्श नहीं",
+        noUpcoming: "कोई आगामी अपॉइंटमेंट नहीं", noPast: "कोई पिछला परामर्श नहीं",
         bookingConfirmed: "अपॉइंटमेंट सफलतापूर्वक बुक किया गया!",
         bookingCancelled: "अपॉइंटमेंट रद्द किया गया।",
-        specialization: "विशेषज्ञता",
-        experience: "अनुभव",
-        rating: "रेटिंग",
+        specialization: "विशेषज्ञता", experience: "अनुभव", rating: "रेटिंग",
         availableSlots: "उपलब्ध स्लॉट",
         chooseDoctor: "उपलब्ध स्लॉट देखने के लिए डॉक्टर चुनें",
-        years: "वर्ष",
-        appointmentWith: "के साथ अपॉइंटमेंट",
-        on: "को",
-        at: "बजे",
-        status: "स्थिति",
-        confirmed: "पुष्टि हो गई",
-        cancelled: "रद्द किया गया",
-        viewDetails: "विवरण देखें",
-        noSlotsAvailable: "इस तारीख पर कोई स्लॉट उपलब्ध नहीं",
-        selectDateFirst: "पहले तारीख चुनें",
-        selectDoctorFirst: "पहले डॉक्टर चुनें",
+        years: "वर्ष", appointmentWith: "के साथ अपॉइंटमेंट", on: "को", at: "बजे",
+        status: "स्थिति", confirmed: "पुष्टि हो गई", cancelled: "रद्द किया गया",
+        viewDetails: "विवरण देखें", noSlotsAvailable: "इस तारीख पर कोई स्लॉट उपलब्ध नहीं",
+        selectDateFirst: "पहले तारीख चुनें", selectDoctorFirst: "पहले डॉक्टर चुनें",
         fillAllFields: "कृपया सभी फ़ील्ड भरें",
+        viewTitle_overview: "अवलोकन", viewTitle_assessment: "प्रकृति मूल्यांकन",
+        viewTitle_aiplan: "AI सुझाव", viewTitle_diet: "मेरा आहार योजना",
+        viewTitle_yoga: "मेरा योग योजना", viewTitle_progress: "प्रगति ट्रैकिंग",
+        viewTitle_consult: "परामर्श", viewTitle_explainer: "दृश्य व्याख्याता",
+        viewTitle_chatbot: "AI चैटबॉट",
     },
-
     te: {
-        appTitle: "AyushWell+",
-        appTagline: "AI-ఆధారిత ఆయుర్వేద ఆరోగ్యం",
-        signIn: "సైన్ ఇన్ చేయండి",
-        register: "నమోదు చేయండి",
-        patient: "రోగి",
-        doctor: "వైద్యుడు",
-        emailOrPhone: "ఇమెయిల్ లేదా ఫోన్",
-        enterEmail: "మీ ఇమెయిల్ లేదా ఫోన్ నమోదు చేయండి",
-        password: "పాస్వర్డ్",
-        enterPassword: "మీ పాస్వర్డ్ నమోదు చేయండి",
-        tryDemo: "డెమో అకౌంట్ ప్రయత్నించండి",
-        fullName: "పూర్తి పేరు",
-        enterFullName: "మీ పూర్తి పేరు నమోదు చేయండి",
-        email: "ఇమెయిల్",
-        enterEmailOnly: "మీ ఇమెయిల్ నమోదు చేయండి",
-        phone: "ఫోన్ నంబర్",
+        appTitle: "AyushWell+", appTagline: "AI-ఆధారిత ఆయుర్వేద ఆరోగ్యం",
+        signIn: "సైన్ ఇన్ చేయండి", register: "నమోదు చేయండి", patient: "రోగి", doctor: "వైద్యుడు",
+        emailOrPhone: "ఇమెయిల్ లేదా ఫోన్", enterEmail: "మీ ఇమెయిల్ లేదా ఫోన్ నమోదు చేయండి",
+        password: "పాస్వర్డ్", enterPassword: "మీ పాస్వర్డ్ నమోదు చేయండి",
+        tryDemo: "డెమో అకౌంట్ ప్రయత్నించండి", fullName: "పూర్తి పేరు",
+        enterFullName: "మీ పూర్తి పేరు నమోదు చేయండి", email: "ఇమెయిల్",
+        enterEmailOnly: "మీ ఇమెయిల్ నమోదు చేయండి", phone: "ఫోన్ నంబర్",
         enterPhone: "మీ ఫోన్ నంబర్ నమోదు చేయండి",
         createPassword: "పాస్వర్డ్ సృష్టించండి (కనీసం 6 అక్షరాలు)",
         confirmPassword: "పాస్వర్డ్ నిర్ధారించండి",
         confirmYourPassword: "మీ పాస్వర్డ్ నిర్ధారించండి",
         createAccount: "అకౌంట్ సృష్టించండి",
-        overview: "అవలోకనం",
-        prakritAssessment: "ప్రకృతి మూల్యాంకనం",
-        aiRecommendations: "AI సిఫార్సులు",
-        myDietPlan: "నా ఆహార ప్రణాళిక",
-        myYogaPlan: "నా యోగా ప్రణాళిక",
-        progressTracking: "పురోగతి ట్రాకింగ్",
-        consultations: "సంప్రదింపులు",
-        visualExplainer: "దృశ్య వివరణ",
-        aiChatbot: "AI చాట్‌బాట్",
-        logout: "లాగ్అవుట్",
-        welcomeMsg: "స్వాగతం",
-        wellnessOverview: "ఈ రోజు మీ ఆరోగ్య అవలోకనం",
-        todaysCalories: "ఈ రోజు కేలరీలు",
-        activeMinutes: "చురుకైన నిమిషాలు",
-        waterIntake: "నీటి తీసుకోవడం",
-        sleepQuality: "నిద్ర నాణ్యత",
-        questionOf: "ప్రశ్న",
-        of: "లో",
-        previous: "మునుపటి",
-        nextQuestion: "తదుపరి ప్రశ్న",
-        submitAssessment: "మూల్యాంకనం సమర్పించండి",
-        retakeAssessment: "మళ్ళీ మూల్యాంకనం చేయండి",
-        assessmentComplete: "మూల్యాంకనం పూర్తైంది!",
-        yourPrakriti: "మీ ప్రకృతి",
-        dominantDosha: "మీ ప్రధాన దోషం",
-        bookAppointment: "అపాయింట్‌మెంట్ బుక్ చేయండి",
-        upcomingConsultations: "రాబోయే సంప్రదింపులు",
-        pastConsultations: "గత సంప్రదింపులు",
-        selectDoctor: "వైద్యుడిని ఎంచుకోండి",
-        selectDate: "తేదీ ఎంచుకోండి",
-        selectTime: "సమయ స్లాట్ ఎంచుకోండి",
-        bookNow: "అపాయింట్‌మెంట్ బుక్ చేయండి",
-        cancelBooking: "బుకింగ్ రద్దు చేయండి",
+        nav_overview: "అవలోకనం", nav_assessment: "ప్రకృతి మూల్యాంకనం",
+        nav_aiRec: "AI సిఫార్సులు", nav_diet: "నా ఆహార ప్రణాళిక", nav_yoga: "నా యోగా ప్రణాళిక",
+        nav_progress: "పురోగతి ట్రాకింగ్", nav_consult: "సంప్రదింపులు",
+        nav_explainer: "దృశ్య వివరణ", nav_chatbot: "AI చాట్‌బాట్", nav_logout: "లాగ్అవుట్",
+        welcomeMsg: "స్వాగతం", wellnessOverview: "ఈ రోజు మీ ఆరోగ్య అవలోకనం",
+        todaysCalories: "ఈ రోజు కేలరీలు", activeMinutes: "చురుకైన నిమిషాలు",
+        waterIntake: "నీటి తీసుకోవడం", sleepQuality: "నిద్ర నాణ్యత",
+        questionOf: "ప్రశ్న", of: "లో", previous: "మునుపటి",
+        nextQuestion: "తదుపరి ప్రశ్న", submitAssessment: "మూల్యాంకనం సమర్పించండి",
+        retakeAssessment: "మళ్ళీ మూల్యాంకనం చేయండి", assessmentComplete: "మూల్యాంకనం పూర్తైంది!",
+        yourPrakriti: "మీ ప్రకృతి", dominantDosha: "మీ ప్రధాన దోషం",
+        bookAppointment: "అపాయింట్‌మెంట్ బుక్ చేయండి", upcomingConsultations: "రాబోయే సంప్రదింపులు",
+        pastConsultations: "గత సంప్రదింపులు", selectDoctor: "వైద్యుడిని ఎంచుకోండి",
+        selectDate: "తేదీ ఎంచుకోండి", selectTime: "సమయ స్లాట్ ఎంచుకోండి",
+        bookNow: "అపాయింట్‌మెంట్ బుక్ చేయండి", cancelBooking: "బుకింగ్ రద్దు చేయండి",
         confirmCancel: "ఈ అపాయింట్‌మెంట్‌ను రద్దు చేయాలనుకుంటున్నారా?",
-        noUpcoming: "రాబోయే అపాయింట్‌మెంట్‌లు లేవు",
-        noPast: "గత సంప్రదింపులు లేవు",
+        noUpcoming: "రాబోయే అపాయింట్‌మెంట్‌లు లేవు", noPast: "గత సంప్రదింపులు లేవు",
         bookingConfirmed: "అపాయింట్‌మెంట్ విజయవంతంగా బుక్ చేయబడింది!",
         bookingCancelled: "అపాయింట్‌మెంట్ రద్దు చేయబడింది.",
-        specialization: "ప్రత్యేకత",
-        experience: "అనుభవం",
-        rating: "రేటింగ్",
+        specialization: "ప్రత్యేకత", experience: "అనుభవం", rating: "రేటింగ్",
         availableSlots: "అందుబాటులో ఉన్న స్లాట్‌లు",
         chooseDoctor: "అందుబాటులో ఉన్న స్లాట్‌లు చూడడానికి వైద్యుడిని ఎంచుకోండి",
-        years: "సంవత్సరాలు",
-        appointmentWith: "తో అపాయింట్‌మెంట్",
-        on: "న",
-        at: "కి",
-        status: "స్థితి",
-        confirmed: "నిర్ధారించబడింది",
-        cancelled: "రద్దు చేయబడింది",
-        viewDetails: "వివరాలు చూడండి",
-        noSlotsAvailable: "ఈ తేదీన స్లాట్‌లు అందుబాటులో లేవు",
-        selectDateFirst: "ముందు తేదీ ఎంచుకోండి",
-        selectDoctorFirst: "ముందు వైద్యుడిని ఎంచుకోండి",
+        years: "సంవత్సరాలు", appointmentWith: "తో అపాయింట్‌మెంట్", on: "న", at: "కి",
+        status: "స్థితి", confirmed: "నిర్ధారించబడింది", cancelled: "రద్దు చేయబడింది",
+        viewDetails: "వివరాలు చూడండి", noSlotsAvailable: "ఈ తేదీన స్లాట్‌లు అందుబాటులో లేవు",
+        selectDateFirst: "ముందు తేదీ ఎంచుకోండి", selectDoctorFirst: "ముందు వైద్యుడిని ఎంచుకోండి",
         fillAllFields: "దయచేసి అన్ని ఫీల్డ్‌లు పూరించండి",
+        viewTitle_overview: "అవలోకనం", viewTitle_assessment: "ప్రకృతి మూల్యాంకనం",
+        viewTitle_aiplan: "AI సిఫార్సులు", viewTitle_diet: "నా ఆహార ప్రణాళిక",
+        viewTitle_yoga: "నా యోగా ప్రణాళిక", viewTitle_progress: "పురోగతి ట్రాకింగ్",
+        viewTitle_consult: "సంప్రదింపులు", viewTitle_explainer: "దృశ్య వివరణ",
+        viewTitle_chatbot: "AI చాట్‌బాట్",
     }
 };
 
 // ==================== TRANSLATED ASSESSMENT QUESTIONS ====================
-
 const TRANSLATED_QUESTIONS = {
-    en: null, // Uses default from assessment.js
-
+    en: null,
     ta: [
         { question: "உங்கள் உடல் அமைப்பு எவ்வாறு உள்ளது?", options: [{ text: "மெலிந்த, எலும்புச் சட்டம்", dosha: "vata" }, { text: "நடுத்தர, தசை, விளையாட்டு", dosha: "pitta" }, { text: "பெரிய, அகலமான, கனமான சட்டம்", dosha: "kapha" }] },
         { question: "உங்கள் எடை எவ்வாறு உள்ளது?", options: [{ text: "குறைவு, எடை கூட்டுவது கஷ்டம்", dosha: "vata" }, { text: "மிதமான, எளிதாக கூட்டலாம்/குறைக்கலாம்", dosha: "pitta" }, { text: "கனம், எளிதாக கூடும், குறைவது கஷ்டம்", dosha: "kapha" }] },
@@ -375,7 +228,6 @@ const TRANSLATED_QUESTIONS = {
         { question: "உங்கள் மனநிலை பொதுவாக எவ்வாறு உள்ளது?", options: [{ text: "மணிக்கு/தினமும் மாறும்", dosha: "vata" }, { text: "பொதுவாக தீவிரமான", dosha: "pitta" }, { text: "பொதுவாக மகிழ்ச்சியான/திருப்தியான", dosha: "kapha" }] },
         { question: "உங்கள் முக்கிய சவால் என்ன?", options: [{ text: "பயம் மற்றும் கவலை", dosha: "vata" }, { text: "கோபம் மற்றும் கட்டுப்பாடு", dosha: "pitta" }, { text: "சோம்பல் மற்றும் பற்று", dosha: "kapha" }] },
     ],
-
     hi: [
         { question: "आपकी शरीर की बनावट कैसी है?", options: [{ text: "पतला, हल्का ढांचा", dosha: "vata" }, { text: "मध्यम, मांसपेशीय, एथलेटिक", dosha: "pitta" }, { text: "बड़ा, चौड़ा, भारी ढांचा", dosha: "kapha" }] },
         { question: "आपका वजन कैसा है?", options: [{ text: "कम, वजन बढ़ाना मुश्किल", dosha: "vata" }, { text: "मध्यम, आसानी से बढ़ता/घटता है", dosha: "pitta" }, { text: "भारी, आसानी से बढ़ता है, घटाना मुश्किल", dosha: "kapha" }] },
@@ -418,35 +270,34 @@ const TRANSLATED_QUESTIONS = {
         { question: "आपका मूड आमतौर पर कैसा रहता है?", options: [{ text: "प्रति घंटे/दिन बदलता है", dosha: "vata" }, { text: "आमतौर पर तीव्र", dosha: "pitta" }, { text: "आमतौर पर खुश/संतुष्ट", dosha: "kapha" }] },
         { question: "आपकी मुख्य चुनौती क्या है?", options: [{ text: "भय और चिंता", dosha: "vata" }, { text: "क्रोध और नियंत्रण", dosha: "pitta" }, { text: "जड़ता और आसक्ति", dosha: "kapha" }] },
     ],
-
     te: [
         { question: "మీ శరీర నిర్మాణం ఎలా ఉంది?", options: [{ text: "సన్నగా, తేలిగ్గా", dosha: "vata" }, { text: "మధ్యస్తంగా, కండరాలతో", dosha: "pitta" }, { text: "పెద్దగా, అడ్డంగా, బరువుగా", dosha: "kapha" }] },
         { question: "మీ బరువు ఎలా ఉంది?", options: [{ text: "తక్కువ, బరువు పెరగడం కష్టం", dosha: "vata" }, { text: "మధ్యస్తంగా, సులభంగా పెరుగుతుంది/తగ్గుతుంది", dosha: "pitta" }, { text: "బరువుగా, సులభంగా పెరుగుతుంది, తగ్గడం కష్టం", dosha: "kapha" }] },
         { question: "మీ చర్మం అమరిక ఎలా ఉంది?", options: [{ text: "పొడిగా, గరుగ్గా, చల్లగా, సన్నగా", dosha: "vata" }, { text: "వేడిగా, నూనెగా, సున్నితంగా, ఎర్రగా", dosha: "pitta" }, { text: "మందంగా, మృదువుగా, చల్లగా, తేమగా", dosha: "kapha" }] },
         { question: "మీ జుట్టు ఎలా ఉంది?", options: [{ text: "పొడిగా, పెళుసుగా, గిరజాలుగా, తక్కువగా", dosha: "vata" }, { text: "సన్నగా, మృదువుగా, త్వరగా తెల్లబడడం", dosha: "pitta" }, { text: "మందంగా, మెరుస్తూ, అలలుగా, నూనెగా", dosha: "kapha" }] },
         { question: "మీ కళ్ళు ఎలా ఉన్నాయి?", options: [{ text: "చిన్నగా, చురుకుగా, పొడిగా", dosha: "vata" }, { text: "మధ్యస్తంగా, తీక్షణంగా, కాంతి సున్నితత్వం", dosha: "pitta" }, { text: "పెద్దగా, అందంగా, శాంతంగా", dosha: "kapha" }] },
-        { question: "మీ దంతాలు ఎలా ఉన్నాయి?", options: [{ text: "అనియమితంగా, ముందుకు వస్తాయి, చిగుళ్ళు వెనక్కు వెళ్తాయి", dosha: "vata" }, { text: "మధ్యస్తంగా, పసుపు రంగు, చిగుళ్ళకు రక్తం", dosha: "pitta" }, { text: "పెద్దగా, తెల్లగా, బలంగా, ఆరోగ్యకరమైన చిగుళ్ళు", dosha: "kapha" }] },
-        { question: "మీ గోళ్ళు ఎలా ఉన్నాయి?", options: [{ text: "పొడిగా, గరుగ్గా, పెళుసుగా, సులభంగా విరిగిపోతాయి", dosha: "vata" }, { text: "గులాబీ రంగు, మృదువుగా, మధ్యస్తంగా", dosha: "pitta" }, { text: "మందంగా, బలంగా, మృదువుగా, తెల్లగా", dosha: "kapha" }] },
+        { question: "మీ దంతాలు ఎలా ఉన్నాయి?", options: [{ text: "అనియమితంగా, ముందుకు వస్తాయి", dosha: "vata" }, { text: "మధ్యస్తంగా, పసుపు రంగు", dosha: "pitta" }, { text: "పెద్దగా, తెల్లగా, బలంగా", dosha: "kapha" }] },
+        { question: "మీ గోళ్ళు ఎలా ఉన్నాయి?", options: [{ text: "పొడిగా, గరుగ్గా, పెళుసుగా", dosha: "vata" }, { text: "గులాబీ రంగు, మృదువుగా", dosha: "pitta" }, { text: "మందంగా, బలంగా, తెల్లగా", dosha: "kapha" }] },
         { question: "మీ కీళ్ళ ఆరోగ్యం ఎలా ఉంది?", options: [{ text: "ముందుకు వస్తాయి, చప్పుడు చేయవచ్చు", dosha: "vata" }, { text: "మధ్యస్తంగా, వశ్యంగా", dosha: "pitta" }, { text: "పెద్దగా, దృఢంగా, మంచి కుషన్‌తో", dosha: "kapha" }] },
         { question: "మీ ఆకలి ఎలా ఉంది?", options: [{ text: "అనియమితంగా, కొన్నిసార్లు ఆకలి, కొన్నిసార్లు లేదు", dosha: "vata" }, { text: "బలంగా, భోజనం దాటితే భరించలేను", dosha: "pitta" }, { text: "స్థిరంగా, తక్కువగా కానీ నిరంతరంగా", dosha: "kapha" }] },
         { question: "మీ జీర్ణక్రియ ఎలా ఉంది?", options: [{ text: "వాయువు, ఉబ్బరం, మలబద్ధకం", dosha: "vata" }, { text: "వేగంగా, గుండె మంట, అమ్లత్వం", dosha: "pitta" }, { text: "నెమ్మదిగా, తిన్న తర్వాత భారంగా", dosha: "kapha" }] },
         { question: "మీ రుచి ప్రాధాన్యతలు ఏమిటి?", options: [{ text: "తీపి, పుల్లగా, ఉప్పగా", dosha: "vata" }, { text: "తీపి, చేదుగా, కషాయంగా", dosha: "pitta" }, { text: "మసాలాగా, చేదుగా, కషాయంగా", dosha: "kapha" }] },
         { question: "మీ దాహం ఎలా ఉంది?", options: [{ text: "మారుతూ ఉంటుంది", dosha: "vata" }, { text: "అధికంగా, తరచూ దాహం", dosha: "pitta" }, { text: "తక్కువగా, అరుదుగా దాహం", dosha: "kapha" }] },
-        { question: "మీ ప్రేగు కదలిక ఎలా ఉంది?", options: [{ text: "పొడిగా, గట్టిగా, మలబద్ధకం, అనియమితంగా", dosha: "vata" }, { text: "మృదువుగా, వదులుగా, తరచూ", dosha: "pitta" }, { text: "భారంగా, నెమ్మదిగా, నమ్మకంగా", dosha: "kapha" }] },
+        { question: "మీ ప్రేగు కదలిక ఎలా ఉంది?", options: [{ text: "పొడిగా, గట్టిగా, మలబద్ధకం", dosha: "vata" }, { text: "మృదువుగా, వదులుగా, తరచూ", dosha: "pitta" }, { text: "భారంగా, నెమ్మదిగా, నమ్మకంగా", dosha: "kapha" }] },
         { question: "మీరు ఉష్ణోగ్రతకు ఎలా స్పందిస్తారు?", options: [{ text: "చలిని ఇష్టపడను, వేడిని ఇష్టపడతాను", dosha: "vata" }, { text: "వేడిని ఇష్టపడను, చల్లదనాన్ని ఇష్టపడతాను", dosha: "pitta" }, { text: "తేమ/చలిని ఇష్టపడను, వెచ్చటి/పొడిని ఇష్టపడతాను", dosha: "kapha" }] },
         { question: "మీ శరీర ఉష్ణోగ్రత ఎలా ఉంది?", options: [{ text: "చేతులు, కాళ్ళు చల్లగా ఉంటాయి", dosha: "vata" }, { text: "శరీరం అంతటా వేడిగా ఉంటుంది", dosha: "pitta" }, { text: "చల్లగా కానీ సౌకర్యంగా", dosha: "kapha" }] },
-        { question: "మీరు ఎంత చెమట పట్టిస్తారు?", options: [{ text: "తక్కువగా, తక్కువ వాసన", dosha: "vata" }, { text: "ఎక్కువగా, తీవ్రమైన వాసన", dosha: "pitta" }, { text: "మధ్యస్తంగా, సుతారమైన/తటస్థ వాసన", dosha: "kapha" }] },
-        { question: "మీ శక్తి స్థాయి ఎలా ఉంది?", options: [{ text: "శక్తి విస్ఫోటాలు, తర్వాత అలసట", dosha: "vata" }, { text: "మధ్యస్తంగా, తీవ్రంగా, దృష్టితో", dosha: "pitta" }, { text: "స్థిరంగా, అధిక సహనంతో, నెమ్మదిగా మొదలవుతుంది", dosha: "kapha" }] },
+        { question: "మీరు ఎంత చెమట పట్టిస్తారు?", options: [{ text: "తక్కువగా, తక్కువ వాసన", dosha: "vata" }, { text: "ఎక్కువగా, తీవ్రమైన వాసన", dosha: "pitta" }, { text: "మధ్యస్తంగా, సుతారమైన వాసన", dosha: "kapha" }] },
+        { question: "మీ శక్తి స్థాయి ఎలా ఉంది?", options: [{ text: "శక్తి విస్ఫోటాలు, తర్వాత అలసట", dosha: "vata" }, { text: "మధ్యస్తంగా, తీవ్రంగా, దృష్టితో", dosha: "pitta" }, { text: "స్థిరంగా, అధిక సహనంతో", dosha: "kapha" }] },
         { question: "మీ నిద్ర ఎలా ఉంది?", options: [{ text: "తేలిగ్గా, అంతరాయంగా, తరచూ కలలు", dosha: "vata" }, { text: "మధ్యస్తంగా, మంచి నిద్ర", dosha: "pitta" }, { text: "లోతుగా, భారంగా, లేవడం కష్టం", dosha: "kapha" }] },
         { question: "మీ నడక వేగం ఎలా ఉంది?", options: [{ text: "వేగంగా, అనియమితంగా", dosha: "vata" }, { text: "మధ్యస్తంగా, ఉద్దేశంతో", dosha: "pitta" }, { text: "నెమ్మదిగా, స్థిరంగా", dosha: "kapha" }] },
-        { question: "మీరు పని ఎలా చేస్తారు?", options: [{ text: "సృజనాత్మకంగా, మల్టీటాస్కర్, చాలా పనులు మొదలుపెడతారు", dosha: "vata" }, { text: "వ్యవస్థితంగా, ప్రణాళికాబద్ధంగా, సమర్థంగా", dosha: "pitta" }, { text: "పద్ధతిగా, స్థిరంగా, సహాయకారిగా", dosha: "kapha" }] },
+        { question: "మీరు పని ఎలా చేస్తారు?", options: [{ text: "సృజనాత్మకంగా, మల్టీటాస్కర్", dosha: "vata" }, { text: "వ్యవస్థితంగా, ప్రణాళికాబద్ధంగా", dosha: "pitta" }, { text: "పద్ధతిగా, స్థిరంగా, సహాయకారిగా", dosha: "kapha" }] },
         { question: "మీ మనసు ఎలా ఉంది?", options: [{ text: "అశాంతిగా, చురుకుగా, ఊహాత్మకంగా", dosha: "vata" }, { text: "తీక్షణంగా, మేధావిగా, విమర్శనాత్మకంగా", dosha: "pitta" }, { text: "శాంతంగా, స్థిరంగా, నెమ్మదిగా", dosha: "kapha" }] },
-        { question: "మీ జ్ఞాపకశక్తి ఎలా ఉంది?", options: [{ text: "వేగంగా నేర్చుకుంటాయి, వేగంగా మరచిపోతాయి", dosha: "vata" }, { text: "తీక్షణంగా, స్పష్టంగా, విలక్షణంగా", dosha: "pitta" }, { text: "నెమ్మదిగా నేర్చుకుంటాయి, ఎప్పటికీ గుర్తుంటుంది", dosha: "kapha" }] },
-        { question: "మీరు ఒత్తిడిని ఎలా నిర్వహిస్తారు?", options: [{ text: "ఆందోళన, భయం", dosha: "vata" }, { text: "చిరాకు, కోపం", dosha: "pitta" }, { text: "వెనుకడుగు వేయడం, నిరాశ, తినడం", dosha: "kapha" }] },
-        { question: "మీ మాట్లాడే శైలి ఎలా ఉంది?", options: [{ text: "వేగంగా, మాట్లాడడం ఇష్టపడతారు, విషయాలు మారతారు", dosha: "vata" }, { text: "తీక్షణంగా, స్పష్టంగా, ఖచ్చితంగా, నిరూపణాత్మకంగా", dosha: "pitta" }, { text: "నెమ్మదిగా, సుశ్రావ్యంగా, బాగా వింటారు", dosha: "kapha" }] },
-        { question: "మీ ఆర్థిక స్థితి ఎలా ఉంది?", options: [{ text: "చిన్న వస్తువులపై ఆవేశంగా ఖర్చు", dosha: "vata" }, { text: "విలాసవంతమైన/హోదా వస్తువులపై ఖర్చు", dosha: "pitta" }, { text: "డబ్బు పొదుపు, జాగ్రత్తగా ఖర్చు", dosha: "kapha" }] },
-        { question: "మీ కలలు ఎలా ఉంటాయి?", options: [{ text: "ఎగురుతూ, పరిగెత్తుతూ, భయంగా, చురుకుగా", dosha: "vata" }, { text: "అగ్ని, పోరాటం, సమస్య పరిష్కారం", dosha: "pitta" }, { text: "నీరు, ప్రేమ, ప్రకృతి, నెమ్మదిగా", dosha: "kapha" }] },
-        { question: "మీ స్నేహం ఎలా ఉంది?", options: [{ text: "చాలా మంది సాధారణ స్నేహితులు", dosha: "vata" }, { text: "కొంతమంది సన్నిహిత స్నేహితులు, పని సంబంధిత", dosha: "pitta" }, { text: "దీర్ఘకాలిక, లోతైన, విశ్వాసమైన", dosha: "kapha" }] },
+        { question: "మీ జ్ఞాపకశక్తి ఎలా ఉంది?", options: [{ text: "వేగంగా నేర్చుకుంటాయి, వేగంగా మరచిపోతాయి", dosha: "vata" }, { text: "తీక్షణంగా, స్పష్టంగా", dosha: "pitta" }, { text: "నెమ్మదిగా నేర్చుకుంటాయి, ఎప్పటికీ గుర్తుంటుంది", dosha: "kapha" }] },
+        { question: "మీరు ఒత్తిడిని ఎలా నిర్వహిస్తారు?", options: [{ text: "ఆందోళన, భయం", dosha: "vata" }, { text: "చిరాకు, కోపం", dosha: "pitta" }, { text: "వెనుకడుగు వేయడం, నిరాశ", dosha: "kapha" }] },
+        { question: "మీ మాట్లాడే శైలి ఎలా ఉంది?", options: [{ text: "వేగంగా, మాట్లాడడం ఇష్టపడతారు", dosha: "vata" }, { text: "తీక్షణంగా, స్పష్టంగా, ఖచ్చితంగా", dosha: "pitta" }, { text: "నెమ్మదిగా, సుశ్రావ్యంగా, బాగా వింటారు", dosha: "kapha" }] },
+        { question: "మీ ఆర్థిక స్థితి ఎలా ఉంది?", options: [{ text: "చిన్న వస్తువులపై ఆవేశంగా ఖర్చు", dosha: "vata" }, { text: "విలాసవంతమైన వస్తువులపై ఖర్చు", dosha: "pitta" }, { text: "డబ్బు పొదుపు, జాగ్రత్తగా ఖర్చు", dosha: "kapha" }] },
+        { question: "మీ కలలు ఎలా ఉంటాయి?", options: [{ text: "ఎగురుతూ, పరిగెత్తుతూ, భయంగా", dosha: "vata" }, { text: "అగ్ని, పోరాటం, సమస్య పరిష్కారం", dosha: "pitta" }, { text: "నీరు, ప్రేమ, ప్రకృతి, నెమ్మదిగా", dosha: "kapha" }] },
+        { question: "మీ స్నేహం ఎలా ఉంది?", options: [{ text: "చాలా మంది సాధారణ స్నేహితులు", dosha: "vata" }, { text: "కొంతమంది సన్నిహిత స్నేహితులు", dosha: "pitta" }, { text: "దీర్ఘకాలిక, లోతైన, విశ్వాసమైన", dosha: "kapha" }] },
         { question: "మీ నిర్ణయ తీసుకొనే శైలి ఏమిటి?", options: [{ text: "నిర్ణయం తీసుకోలేక, తరచూ మనసు మారుతుంది", dosha: "vata" }, { text: "నిర్ణయాత్మకంగా, నాయకత్వంగా", dosha: "pitta" }, { text: "నెమ్మదిగా, ఇతరులతో సంప్రదిస్తారు", dosha: "kapha" }] },
         { question: "మీరు వివాదానికి ఎలా స్పందిస్తారు?", options: [{ text: "పారిపోతారు, నివారిస్తారు", dosha: "vata" }, { text: "వాదిస్తారు, గెలవడానికి ప్రయత్నిస్తారు", dosha: "pitta" }, { text: "శాంతి దూత, లేదా మౌనంగా ఉంటారు", dosha: "kapha" }] },
         { question: "మీ నాడి రకం ఏమిటి?", options: [{ text: "దారం వంటి, వేగంగా, పాము వంటి", dosha: "vata" }, { text: "ఎగురుతూ, దూకుతూ, కప్ప వంటి", dosha: "pitta" }, { text: "నెమ్మదిగా, అడ్డంగా, హంస వంటి", dosha: "kapha" }] },
@@ -464,18 +315,7 @@ const TRANSLATED_QUESTIONS = {
 };
 
 // ==================== LANGUAGE MANAGER ====================
-
 let currentLang = 'en';
-
-function setLanguage(lang) {
-    currentLang = lang;
-    localStorage.setItem('ayushLang', lang);
-    applyTranslations();
-    // Re-render assessment if visible
-    if (document.getElementById('patientAssessment') && !document.getElementById('patientAssessment').classList.contains('hidden')) {
-        renderQuestion();
-    }
-}
 
 function t(key) {
     return (TRANSLATIONS[currentLang] && TRANSLATIONS[currentLang][key]) || TRANSLATIONS['en'][key] || key;
@@ -485,34 +325,122 @@ function getQuestions() {
     if (currentLang !== 'en' && TRANSLATED_QUESTIONS[currentLang]) {
         return TRANSLATED_QUESTIONS[currentLang];
     }
-    return null; // assessment.js will use its own `questions` array
+    return null;
 }
 
-function applyTranslations() {
-    const elements = document.querySelectorAll('[data-i18n]');
-    elements.forEach(el => {
-        const key = el.getAttribute('data-i18n');
-        const attr = el.getAttribute('data-i18n-attr');
-        if (attr) {
-            el.setAttribute(attr, t(key));
-        } else {
-            el.textContent = t(key);
-        }
-    });
-
-    const placeholders = document.querySelectorAll('[data-i18n-placeholder]');
-    placeholders.forEach(el => {
-        el.placeholder = t(el.getAttribute('data-i18n-placeholder'));
-    });
+function setLanguage(lang) {
+    currentLang = lang;
+    localStorage.setItem('ayushLang', lang);
+    applyAllTranslations();
+    // Re-render assessment if visible
+    const assessmentEl = document.getElementById('patientAssessment');
+    if (assessmentEl && !assessmentEl.classList.contains('hidden')) {
+        if (typeof renderQuestion === 'function') renderQuestion();
+    }
+    // Re-render consult page if visible
+    const consultEl = document.getElementById('patientConsult');
+    if (consultEl && !consultEl.classList.contains('hidden')) {
+        if (typeof renderConsultPage === 'function') renderConsultPage();
+    }
 }
 
-// Initialize language from storage
+function applyAllTranslations() {
+    // ---- AUTH PAGE ----
+    setText('loginTabBtn', t('signIn'));
+    setText('registerTabBtn', t('register'));
+    setPlaceholder('loginEmail', t('enterEmail'));
+    setPlaceholder('loginPassword', t('enterPassword'));
+    setPlaceholder('registerName', t('enterFullName'));
+    setPlaceholder('registerEmail', t('enterEmailOnly'));
+    setPlaceholder('registerPhone', t('enterPhone'));
+    setPlaceholder('registerPassword', t('createPassword'));
+    setPlaceholder('registerConfirmPassword', t('confirmYourPassword'));
+
+    // Role buttons
+    const roleBtns = document.querySelectorAll('.role-btn .role-name');
+    if (roleBtns[0]) roleBtns[0].textContent = t('patient');
+    if (roleBtns[1]) roleBtns[1].textContent = t('doctor');
+
+    // Try demo button
+    const demoBtn = document.querySelector('#loginForm button[onclick="useDemoAccount()"]');
+    if (demoBtn) demoBtn.textContent = t('tryDemo');
+
+    // Form labels
+    setLabelText('loginEmail', t('emailOrPhone'));
+    setLabelText('loginPassword', t('password'));
+    setLabelText('registerName', t('fullName'));
+    setLabelText('registerEmail', t('email'));
+    setLabelText('registerPhone', t('phone'));
+    setLabelText('registerPassword', t('createPassword'));
+    setLabelText('registerConfirmPassword', t('confirmPassword'));
+
+    // Submit buttons
+    const loginSubmit = document.querySelector('#loginForm button[type="submit"]');
+    if (loginSubmit) loginSubmit.textContent = t('signIn');
+    const registerSubmit = document.querySelector('#registerForm button[type="submit"]');
+    if (registerSubmit) registerSubmit.textContent = t('createAccount');
+
+    // ---- SIDEBAR NAV ----
+    const navSpans = document.querySelectorAll('#patientApp .sidebar-nav .nav-item span:last-child');
+    const navKeys = ['nav_overview','nav_assessment','nav_aiRec','nav_diet','nav_yoga','nav_progress','nav_consult','nav_explainer','nav_chatbot'];
+    navSpans.forEach((span, i) => { if (navKeys[i]) span.textContent = t(navKeys[i]); });
+
+    // Logout
+    const logoutSpan = document.querySelector('#patientApp .sidebar-footer .nav-item span:last-child');
+    if (logoutSpan) logoutSpan.textContent = t('nav_logout');
+
+    // ---- TOP BAR TITLE ----
+    // Update based on current active view
+    const titleEl = document.getElementById('patientViewTitle');
+    if (titleEl) {
+        const activeNav = document.querySelector('#patientApp .sidebar-nav .nav-item.active span:last-child');
+        if (activeNav) titleEl.textContent = activeNav.textContent;
+    }
+
+    // ---- OVERVIEW STAT LABELS ----
+    const statLabels = document.querySelectorAll('#patientOverview .stat-card .stat-label');
+    const statKeys = ['todaysCalories','activeMinutes','waterIntake','sleepQuality'];
+    statLabels.forEach((el, i) => { if (statKeys[i]) el.textContent = t(statKeys[i]); });
+
+    // Welcome message
+    const welcomeEl = document.getElementById('patientWelcome');
+    if (welcomeEl) {
+        const name = welcomeEl.textContent.split(',')[1] || ' User 👋';
+        welcomeEl.textContent = t('welcomeMsg') + ',' + name;
+    }
+    const overviewSubtitle = document.querySelector('#patientOverview > .card > p');
+    if (overviewSubtitle) overviewSubtitle.textContent = t('wellnessOverview');
+
+    // ---- ASSESSMENT buttons ----
+    const prevBtn = document.getElementById('prevBtn');
+    const nextBtn = document.getElementById('nextBtn');
+    if (prevBtn) prevBtn.textContent = t('previous');
+    if (nextBtn && !nextBtn.disabled) nextBtn.textContent = t('nextQuestion');
+}
+
+// ---- Helpers ----
+function setText(id, text) {
+    const el = document.getElementById(id);
+    if (el) el.textContent = text;
+}
+
+function setPlaceholder(id, text) {
+    const el = document.getElementById(id);
+    if (el) el.placeholder = text;
+}
+
+function setLabelText(inputId, text) {
+    const input = document.getElementById(inputId);
+    if (!input) return;
+    const label = input.closest('.form-group')?.querySelector('.form-label');
+    if (label) label.textContent = text;
+}
+
+// Initialize language on page load
 document.addEventListener('DOMContentLoaded', () => {
     const saved = localStorage.getItem('ayushLang') || 'en';
     currentLang = saved;
-    applyTranslations();
-
-    // Set dropdown value if exists
     const sel = document.getElementById('globalLangSelector');
     if (sel) sel.value = saved;
+    applyAllTranslations();
 });
